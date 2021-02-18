@@ -15,11 +15,11 @@ function Movie({ id, year, title, summary, poster, genres}) {
           genres
         }
       }}>
-        <div class="movie">
+        <div className="movie">
             <img src={poster} alt={title} title={title}/>
-            <div class="movie__data">
-                <h3 class="movie__title">{title}</h3>
-                <h3 class="movie__year">{year}</h3>
+            <div className="movie__data">
+                <h3 className="movie__title">{title}</h3>
+                <h3 className="movie__year">{year}</h3>
                 <ul className="movie__genres">
               {genres.map((genre, index) => (
                 <li key={index} className="genres__genre">
@@ -27,7 +27,7 @@ function Movie({ id, year, title, summary, poster, genres}) {
                 </li>
               ))}
             </ul>
-                <p class="movie__summary">{summary.slice(0, 180)}...</p>
+                <p className="movie__summary">{summary.slice(0, 180)}...</p>
             </div>
         </div>
       </Link>

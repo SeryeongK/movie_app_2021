@@ -1,0 +1,38 @@
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0; 
+    background-color: white;
+    width: 700px;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.other_info {
+    text-align: center;
+    font-size: 10pt;
+}
+
+.genre_list {
+    list-style-type: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+.sum {
+    width: 250px;
+}
